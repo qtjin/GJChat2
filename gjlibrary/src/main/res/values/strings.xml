@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GJLibrary</string>
+    <string name="loading">加载中...</string>
+    <string name="ok">是</string>
+    <string name="permision_available">权限已被授予</string>
+    <string name="permissions_not_granted">权限未授予</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/text_333333</item>
+        <item name="colorPrimaryDark">@color/topbar_bg</item>
+        <item name="colorAccent">@color/text_666666</item>
+    </style>
+
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:alpha">0.6</item>
+    </style>
+
+</resources>

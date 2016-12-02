@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="14dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_grzx_icon_morentouxiang"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_userhead"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color323232"
+                android:textSize="@dimen/text_size_16"
+                />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nickname"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_72"
+                android:textSize="@dimen/text_size_14"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nickname"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text_color323232"
+        android:textSize="@dimen/text_size_16"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <com.gj.gjchat2.ui.widget.pyq.NoScrollGridView
+        android:id="@+id/gv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:numColumns="3"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/rb_pinglun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/ic_sxq_pinglun"
+            android:drawablePadding="5dp"
+            android:text="评论"
+            android:textColor="@color/text_72"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/rb_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableLeft="@drawable/rb_zan_selector"
+            android:drawablePadding="5dp"
+            android:text="赞"
+            android:textColor="@color/text_72"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@+id/rb_pinglun"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_line_color"
+        android:alpha="90"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>

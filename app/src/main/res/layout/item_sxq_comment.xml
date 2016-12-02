@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange_fd885c"
+        android:textSize="@dimen/text_size_14"
+        />
+
+    <TextView
+        android:id="@+id/tv_huifu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_72"
+        android:textSize="@dimen/text_size_14"
+        android:text="回复"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/tv_be_comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange_fd885c"
+        android:textSize="@dimen/text_size_14"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/tv_comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_72"
+        android:textSize="@dimen/text_size_14"
+        />
+
+</LinearLayout>

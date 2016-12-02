@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyphenate="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical">
+
+    <com.hyphenate.easeui.widget.EaseTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hyphenate:titleBarTitle="消息" />
+
+    <include layout="@layout/ease_search_bar" />
+
+    <FrameLayout
+        android:id="@+id/fl_error_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_tongzhi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/fl_tongzhi"
+                android:layout_width="52dp"
+                android:layout_height="62dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/iv_tongzhi"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="left|center"
+                    android:src="@drawable/ic_msg_notice_icon" />
+
+                <TextView
+                    android:id="@+id/tv_dot_tongzhi"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="top|right"
+                    android:background="@drawable/ic_msg_red_dot"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_tongzhi_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/fl_tongzhi"
+                android:text="通知"
+                android:textColor="@color/text_color323232"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_line_gray_d9" />
+
+        <RelativeLayout
+            android:id="@+id/rl_address_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/fl_address_book"
+                android:layout_width="52dp"
+                android:layout_height="62dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/iv_address_book"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="left|center"
+                    android:src="@drawable/ic_msg_addressbook_icon" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_address_book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/fl_address_book"
+                android:text="联系人"
+                android:textColor="@color/text_color323232"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <include layout="@layout/layout_line_gray_d9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="最近联系人"
+            android:textColor="@color/text_72"
+            android:textSize="12sp" />
+
+        <include layout="@layout/layout_line_gray_d9" />
+
+
+
+    <com.hyphenate.easeui.widget.EaseConversationList
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        hyphenate:cvsListPrimaryTextSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_radius" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_background" format="color|integer" />
+        <attr name="ci_selected_background" format="color|integer" />
+        <attr name="ci_gravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="ci_mode">
+            <enum name="inside" value="0" />
+            <enum name="outside" value="1" />
+            <enum name="solo" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColor" format="color|reference" />
+        <attr name="offColor" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="sbRadius" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+
+    <!-- 带删除功能的 EditText 属性-->
+    <declare-styleable name="ClearEditTextView">
+        <attr name="inputType" format="integer" >
+            <enum name="whenever" value="0" />
+            <enum name="password" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+
+</resources>

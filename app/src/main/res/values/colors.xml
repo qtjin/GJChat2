@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="green_light">#84d36a</color>
+    <color name="green">#45C01A</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray_line">#f0f0f0</color>
+
+    <color name="gray_c6">#c6c6c6</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_666666">#666666</color>
+    <color name="blue">#48b3fe</color>
+    <color name="blue_7facff">#7facff</color>
+    <color name="blue_07b9d9">#07b9d9</color>
+    <color name="gray">#a7a7a7</color>
+    <color name="gray_EEEEEE">#EEEEEE</color>
+    <color name="gray_dddddd">#dddddd</color>
+    <color name="gray_f0">#f0f0f0</color>
+    <color name="gray_f2">#f2f2f2</color>
+    <color name="gray_D9E3E7">#D9E3E7</color>
+    <color name="green_1DBEAF">#1DBEAF</color>
+    <color name="green_00bd9f">#00bd9f</color>
+    <color name="green_0AC0A3">#0AC0A3</color>
+    <color name="green_text_30cab2">#30cab2</color>
+    <color name="green_C2EDF5">#C2EDF5</color>
+    <color name="gray_fb">#fbfbfb</color>
+    <color name="gray_f5f5f5">#f5f5f5</color>
+    <color name="gray_d7d7d7">#d7d7d7</color>
+    <color name="text_72">#727272</color>
+    <color name="text_555555">#555555</color>
+    <color name="text_a5a5a5">#a5a5a5</color>
+    <color name="text_color_b2c6cd">#b2c6cd</color>
+    <color name="text_color_364447">#364447</color>
+
+    <color name="black_picture">#111213</color>
+
+    <color name="gray_line2">#ebebeb</color>
+
+    <color name="text_color787878">#787878</color>
+    <color name="text_color323232">#323232</color>
+    <color name="text_colorA5A5A5">#A5A5A5</color>
+    <color name="text_color364347">#364347</color>
+    <color name="text_gray_color_677376">#677376</color>
+    <color name="orange_fd885c">#fd885c</color>
+    <color name="orange_fa9b51_main_text">#fa9b51</color>
+    <color name="orange_fc9050">#fc9050</color>
+    <color name="orange_ef9b00">#ef9b00</color>
+    <color name="orange_ffbe31">#ffbe31</color>
+    <color name="orange_fff79a">#fff79A</color>
+    <color name="main_line_bg_color">#f0f0f0</color>
+    <color name="main_wide_line_bg_color">#FAFAFA</color>
+    <color name="main_line_color">#D9D9D9</color>
+    <color name="red">#ff0000</color>
+    <color name="red_ff7b7b">#ff7b7b</color>
+    <color name="red_970101">#970101</color>
+    <color name="red_A8171B">#A8171B</color>
+    <color name="search_bg_ecf1f3">#ecf1f3</color>
+    <color name="layout_bg_gray">#EFEFEF</color>
+    <color name="gray_B2C6CD">#B2C6CD</color>
+    <color name="transparent">#00000000</color>
+</resources>

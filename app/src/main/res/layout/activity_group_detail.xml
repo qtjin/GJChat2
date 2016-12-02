@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical">
+
+  <include layout="@layout/layout_topbar"/>
+
+    <com.hyphenate.easeui.widget.EaseExpandGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:background="@color/white"
+         />
+
+    <include layout="@layout/layout_line_gray_d9" />
+
+    <RelativeLayout
+        android:id="@+id/rl_expand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/tv_member_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部群成员"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/black_picture"
+            android:layout_centerVertical="true"
+            />
+
+<!--        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="13dp"
+            android:layout_height="16dp"
+            android:background="@drawable/ic_arrow_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            />-->
+    </RelativeLayout>
+
+    <include layout="@layout/layout_line_gray_d9" />
+
+    <View
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_line_color"
+        android:alpha="90"
+        android:layout_marginTop="10dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_change_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="群名称"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/black_deep"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_14"
+            android:textColor="@color/text_72"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_line_gray_d9" />
+
+
+    <TextView
+        android:id="@+id/tv_sub"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="退出群聊"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_frame_red"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

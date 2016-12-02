@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@color/topbar_bg"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bar_wai"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/topbar_bg"
+        android:gravity="top"
+        >
+
+        <com.gj.gjchat2.ui.widget.MyPictureSelection.FilterImageView
+            android:id="@+id/im_left_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_topbar_back" />
+
+        <TextView
+            android:id="@+id/tv_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:ellipsize="end"
+            android:maxLength="12"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:id="@+id/tv_top_right_finish"
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:enabled="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:text="完成"
+            android:background="@drawable/shape_frame_transparent"
+            />
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:horizontalSpacing="5dip"
+        android:numColumns="3"
+        android:verticalSpacing="5dip" />
+
+    <FrameLayout
+        android:id="@+id/pv_pagerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <com.gj.gjchat2.ui.widget.MyPictureSelection.AlbumViewPager
+            android:id="@+id/fm_albumviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_07b9d9" />
+
+        <RelativeLayout
+            android:id="@+id/rl_album_item_header_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/black_picture" >
+
+            <ImageView
+                android:id="@+id/iv_header_bar_photo_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="12dp"
+                android:paddingRight="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_topbar_back" />
+
+            <TextView
+                android:id="@+id/fm_tv_header_bar_photo_count"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="20dip"
+                android:paddingRight="10dp"
+                android:layout_toRightOf="@id/iv_header_bar_photo_back"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ffeeeeee"
+                android:textSize="@dimen/text_size_22" />
+
+            <TextView
+                android:id="@+id/fm_tv_header_finish"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="85dp"
+                android:layout_height="30dp"
+                android:enabled="true"
+                android:gravity="center"
+                android:background="@drawable/ic_updatework_button_bg"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:text="完成"
+                />
+
+            <CheckBox
+                android:id="@+id/cb_checkbox"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toLeftOf="@id/fm_tv_header_finish"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/picture_setting_album_checkbox"
+                android:button="@null"
+                android:checked="false"
+                android:focusable="false" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

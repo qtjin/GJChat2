@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="addressbook">
+        <item>30222|穆|ic_user_head_mu</item>
+        <item>30223|阿鲁迪巴|ic_user_head_aludiba</item>
+        <item>30224|迪斯马斯克|ic_user_head_disimasike</item>
+        <item>30225|艾欧里亚|ic_user_head_aiyouliya</item>
+        <item>30226|沙加|ic_user_head_shajia</item>
+        <item>30227|撒加|ic_user_head_sajia</item>
+        <item>30228|米罗|ic_user_head_milo</item>
+        <item>30229|童虎|ic_user_head_tonghu</item>
+        <item>30230|艾俄罗斯|ic_user_head_aieluosi</item>
+        <item>30231|卡妙|ic_user_head_kamiao</item>
+        <item>30232|修罗|ic_user_head_xiuluo</item>
+        <item>30233|阿布罗狄|ic_user_head_abuluodi</item>
+    </string-array>
+
+</resources>

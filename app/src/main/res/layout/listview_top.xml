@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_sxq_main_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_sxq_man_top_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_sxq_main_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/ic_sxq_head" />
+
+        <ImageView
+            android:id="@+id/iv_sxq_main_header"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="230dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_grzx_icon_morentouxiang" />
+
+        <TextView
+            android:id="@+id/tv_master_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="244dp"
+            android:layout_toLeftOf="@+id/iv_sxq_main_header"
+            android:text="姓名"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+</LinearLayout>

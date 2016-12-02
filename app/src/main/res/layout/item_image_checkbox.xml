@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.gj.gjchat2.ui.widget.MyPictureSelection.FilterImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:padding="3px"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        >
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/picture_setting_album_checkbox"
+            android:button="@null"
+            android:checked="false"
+            android:focusable="false"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

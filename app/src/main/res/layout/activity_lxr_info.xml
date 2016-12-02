@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_topbar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_line"
+        android:layout_marginTop="20dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/ic_userhead_default" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/text_333333"
+            android:text="姓名"
+            android:layout_toRightOf="@+id/iv_userhead"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_wechat_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/text_333333"
+            android:text="微信号:"
+            android:layout_toRightOf="@+id/iv_userhead"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_gray_line"/>
+
+    <TextView
+        android:id="@+id/tv_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_18"
+        android:text="发消息"
+        android:gravity="center"
+        android:background="@drawable/shape_frame_green"
+        />
+
+    <TextView
+        android:id="@+id/tv_video_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textColor="@color/text_333333"
+        android:textSize="@dimen/text_size_18"
+        android:text="视频聊天"
+        android:gravity="center"
+        android:background="@drawable/shape_frame"
+        />
+
+
+
+</LinearLayout>

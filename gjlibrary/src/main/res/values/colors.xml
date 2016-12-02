@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_image_background">#ffeeeeee</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="base_bg">#ffeeeeee</color>
+
+    <color name="global_bg">#eeeff3</color>
+
+    <color name="topbar_bg">#232325</color>
+
+    <color name="text_333333">#333333</color>
+    <color name="text_666666">#666666</color>
+    <color name="text_999999">#999999</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#45C01A</color>
+</resources>

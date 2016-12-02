@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pyq"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_pyq"
+            android:text="朋友圈" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_saoyisao"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_saoyisao"
+            android:text="扫一扫" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <TextView
+            android:id="@+id/tv_shake"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_shake"
+            android:text="摇一摇" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_nearby"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_nearby"
+            android:text="附近的人" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <TextView
+            android:id="@+id/tv_bottle"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_bottle"
+            android:text="漂流瓶" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_line"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_shop"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_shop"
+            android:text="购物" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+        <TextView
+            android:id="@+id/tv_game"
+            android:textSize="16sp"
+            android:textColor="@color/text_333333"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_faxian_game"
+            android:text="游戏" />
+
+        <include layout="@layout/layout_gray_line"/>
+
+    </LinearLayout>
+</ScrollView>
